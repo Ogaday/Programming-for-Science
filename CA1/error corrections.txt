@@ -1,0 +1,9 @@
+Line 2 is missing a "*" symbol between the 4 and x. The programme needs to explicitly state the multiplication of two things.
+In Line 3, the second apostrophe means that "'Fred'" is treated as a string by itself, and the rest of the line is gibberish. Also, it looks like a new string is being opened at the end of the line.
+In line 4 space is not a valid variable character, and the + sign is an operator, and also can't be used as a character in a variable. The = sign in this case used to assign a value to a variable, not create an equation qhich can be solved as in algebra.
+In line 5 you can't concatenate integers and strings, so z+y is a syntax error
+In line 7, the if statement needs a boolean operator, ie. == instead of =, which will return a value of True or False.
+Also in line 7, the if statement must finish with ":"
+In line 8, the list L has not been defined so it can't be itereated over by a for <element> in <list> statement.
+In line 10 there is insufficient indentation if 'print item' is intended to the result of the the if statement on line 9 returning the boolean value True
+in line 11 the 'else' is indented with a single space when it should only be indented as far as the if it associated with.

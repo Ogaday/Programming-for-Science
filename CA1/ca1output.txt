@@ -1,0 +1,63 @@
+	perfect.py output:
+
+F:\python\ca1>perfect.py
+The sum of the first 30 perfect squares is 9455
+
+
+	madhava.py output:
+
+F:\python\ca1>madhava.py
+The first 20 partial sums from Madhava's sequence are:
+[3.4641016151377544, 3.0792014356780038, 3.156181471569954, 3.13785289159568, 3.
+1426047456630846, 3.141308785462883, 3.1416743126988376, 3.141568715941784, 3.14
+1599773811506, 3.14159051093808, 3.1415933045030817, 3.1415924542876463, 3.14159
+271502038, 3.141592634547314, 3.141592659521714, 3.1415926517339976, 3.141592654
+1725754, 3.1415926534061653, 3.1415926536478262, 3.1415926535714034]
+
+The difference from pi in term 1 is  0.322508961548
+The difference from pi in term 2 is  0.0623912179118
+The difference from pi in term 3 is  0.0145888179802
+The difference from pi in term 4 is  0.00373976199411
+The difference from pi in term 5 is  0.00101209207329
+The difference from pi in term 6 is  0.00028386812691
+The difference from pi in term 7 is  8.16591090445e-05
+The difference from pi in term 8 is  2.39376480091e-05
+The difference from pi in term 9 is  7.12022171268e-06
+The difference from pi in term 10 is  2.14265171294e-06
+The difference from pi in term 11 is  6.50913288602e-07
+The difference from pi in term 12 is  1.99302146786e-07
+The difference from pi in term 13 is  6.14305868396e-08
+The difference from pi in term 14 is  1.90424791491e-08
+The difference from pi in term 15 is  5.93192073239e-09
+The difference from pi in term 16 is  1.85579551726e-09
+The difference from pi in term 17 is  5.82782266889e-10
+The difference from pi in term 18 is  1.83627779649e-10
+The difference from pi in term 19 is  5.8033133854e-11
+The difference from pi in term 20 is  1.83897341799e-11
+Accuracy is better than 1 part in a million at the 11th term:  3.1415933045
+
+
+	hailstone.py output:
+
+F:\python\ca1>hailstone.py
+The first ten sequences of hailstone numbers are:
+[1]
+[2, 1]
+[3, 10, 5, 16, 8, 4, 2, 1]
+[4, 2, 1]
+[5, 16, 8, 4, 2, 1]
+[6, 3, 10, 5, 16, 8, 4, 2, 1]
+[7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1]
+[8, 4, 2, 1]
+[9, 28, 14, 7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1]
+[10, 5, 16, 8, 4, 2, 1]
+Between starting points of 3 and 10000, the shortest sequence starts with 4  and
+ is  3  terms long. The longest sequence starts with 6171 and is  262 terms long
+, and the average sequence length is  85.9834966993
+
+	vowels.py ouput:
+
+F:\python\ca1>vowels.py
+There are 6004 words which contain all 5 vowels
+The list of shortest words with all 5 vowels is:
+['adoulie', 'eucosia', 'eulogia', 'eunomia', 'eutopia', 'moineau', 'sequoia']
