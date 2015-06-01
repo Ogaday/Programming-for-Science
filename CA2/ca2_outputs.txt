@@ -1,0 +1,158 @@
+Output from shuffle.py:
+
+F:\python\ca2>shuffle.py
+A shuffle of the numbers one to twenty:
+[8, 9, 10, 3, 20, 15, 18, 17, 5, 11, 14, 4, 2, 12, 13, 19, 1, 6, 16, 7]
+
+A shuffle of the greek letters [' alpha ', ' beta ', ' gamma ', ' delta ', ' eps
+ilon ', ' zeta ', 'eta', ' theta ', ' iota ', ' kappa ', ' lambda ', 'mu'] :
+[' lambda ', ' beta ', 'mu', ' kappa ', ' gamma ', ' alpha ', 'eta', ' delta ',
+' zeta ', ' theta ', ' epsilon ', ' iota ']
+
+the average quality of the shuffle when shuffling the list of numbers from zero
+to ninety-nine, one thousand times, is 0.500575757576
+
+F:\python\ca2>
+
+Hardcopy of loss from the function "play" in patience.
+
+Python 2.7.3 |EPD 7.3-1 (32-bit)| (default, Apr 12 2012, 14:30:37) [MSC v.1500 3
+2 bit (Intel)] on win32
+Type "credits", "demo" or "enthought" for more information.
+>>> from patience import *
+>>> play(deck_gen(), True)
+[3, 12]
+[3, 12, 12]
+[3, 12, 12, 3]
+[3, 12, 12, 3, 11]
+[3, 12, 12, 3, 11, 11]
+[3, 12, 12, 3, 11, 11, 10]
+[3, 12, 12, 3, 11, 11, 10, 11]
+[3, 12, 12, 3, 11, 11, 10, 11, 9]
+[3, 12, 12, 3, 11, 11, 10, 11, 9, 7]
+43
+>>>
+
+Hardcopy of win from the function "play" in patience.
+
+>>> play(deck, True)
+[2, 13]
+[2, 13, 3]
+[2, 13, 3, 9]
+[7, 13, 3, 6]
+[7, 13, 3, 6, 9]
+[7, 13, 3, 6, 9, 12]
+[7, 13, 3, 6, 9, 12, 3]
+[7, 13, 3, 6, 9, 12, 3, 6]
+[7, 13, 3, 6, 9, 12, 3, 6, 5]
+[7, 13, 3, 7, 9, 12, 3, 6, 2]
+[7, 13, 3, 7, 13, 12, 3, 6, 8]
+[7, 13, 4, 7, 13, 12, 3, 6, 5]
+[5, 13, 12, 7, 13, 12, 3, 6, 5]
+[8, 13, 12, 7, 13, 12, 3, 7, 5]
+[1, 13, 12, 7, 13, 12, 10, 7, 5]
+[11, 13, 12, 7, 13, 12, 11, 7, 5]
+[11, 4, 11, 7, 13, 12, 11, 7, 5]
+[11, 10, 11, 9, 13, 12, 11, 7, 5]
+[2, 10, 11, 9, 8, 7, 11, 7, 5]
+[1, 10, 11, 3, 8, 7, 11, 7, 5]
+[2, 13, 11, 3, 8, 7, 11, 7, 5]
+[2, 13, 11, 12, 6, 7, 11, 7, 5]
+[2, 13, 11, 12, 3, 7, 11, 7, 9]
+[13, 13, 11, 12, 3, 7, 11, 7, 1]
+[6, 13, 10, 4, 3, 7, 11, 7, 1]
+[6, 13, 4, 4, 3, 7, 11, 7, 1]
+[6, 13, 12, 4, 3, 8, 11, 7, 1]
+[6, 13, 12, 5, 3, 8, 11, 10, 1]
+0
+>>>
+
+Hardcopy of Histogram from patience
+
+
+0  **************************************************   10.73% (1073)
+1       0.0% (0)
+2       0.0% (0)
+3       0.0% (0)
+4       0.0% (0)
+5       0.0% (0)
+6       0.01% (1)
+7       0.04% (4)
+8       0.07% (7)
+9       0.21% (21)
+10      0.12% (12)
+11 *    0.32% (32)
+12 *    0.3% (30)
+13 **   0.47% (47)
+14 *    0.33% (33)
+15 ***  0.64% (64)
+16 **   0.44% (44)
+17 ***  0.8% (80)
+18 ***  0.69% (69)
+19 ****         0.98% (98)
+20 ****         0.9% (90)
+21 ****         0.86% (86)
+22 ******       1.47% (147)
+23 ******       1.36% (136)
+24 *******      1.68% (168)
+25 *****        1.16% (116)
+26 ************         2.62% (262)
+27 ******       1.41% (141)
+28 *************        2.9% (290)
+29 *********    1.96% (196)
+30 ****************     3.43% (343)
+31 *************        2.93% (293)
+32 ******************   4.04% (404)
+33 *******************  4.24% (424)
+34 **************       3.15% (315)
+35 *****************************        6.21% (621)
+36 ***********  2.43% (243)
+37 **************************************       8.21% (821)
+38 *******      1.61% (161)
+39 ***********************************************      10.02% (1002)
+40 **   0.59% (59)
+41 *******************************************************      11.71% (1171)
+42      0.0% (0)
+43 ******************************************   8.96% (896)
+44      0.0% (0)
+45      0.0% (0)
+46      0.0% (0)
+47      0.0% (0)
+48      0.0% (0)
+49      0.0% (0)
+50      0.0% (0)
+51      0.0% (0)
+52      0.0% (0)
+
+Harcopy of output from histogram.py
+
+F:\python\ca2>histogram.py
+Histogram of favourite colours, by perentage:
+Blue   ********************************         17.73% (97)
+Red    *******************************************      23.77% (130)
+Yellow *********************    11.88% (65)
+green  *******  4.2% (23)
+orange **************************       14.81% (81)
+purple **************************************************       27.61% (151)
+
+F:\python\ca2>
+
+output of algae.py
+
+F:\python\ca2>algae.py
+The axiom is A
+n = 1 AB
+n = 2 ABA
+n = 3 ABAAB
+n = 4 ABAABABA
+n = 5 ABAABABAABAAB
+n = 6 ABAABABAABAABABAABABA
+n = 7 ABAABABAABAABABAABABAABAABABAABAAB
+n = 8 ABAABABAABAABABAABABAABAABABAABAABABAABABAABAABABAABABA
+n = 9 ABAABABAABAABABAABABAABAABABAABAABABAABABAABAABABAABABAABAABABAABAABABAABA
+BAABAABABAABAAB
+n = 10 ABAABABAABAABABAABABAABAABABAABAABABAABABAABAABABAABABAABAABABAABAABABAAB
+ABAABAABABAABAABABAABABAABAABABAABABAABAABABAABAABABAABABAABAABABAABABA
+The length of the 30th rewritten string is 2178309
+
+F:\python\ca2>
