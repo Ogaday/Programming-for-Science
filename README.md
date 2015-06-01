@@ -6,4 +6,4 @@ It consisted of several workshops and was taught for python 2.7.
 
 All worksheets are property of Richard Everson and are used here without permission.
 
-All code here is my own work and should not be used to cheat.
+All code here is my own work and should not be used to cheat. You are only cheating yourself.
